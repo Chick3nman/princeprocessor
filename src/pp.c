@@ -29,9 +29,9 @@
 #define IN_LEN_MAX    32
 #define OUT_LEN_MAX   32 /* Limited by (u32)(1 << pw_len - 1) */
 #define PW_MIN        1
-#define PW_MAX        16
+#define PW_MAX        64
 #define ELEM_CNT_MIN  1
-#define ELEM_CNT_MAX  8
+#define ELEM_CNT_MAX  32
 #define WL_DIST_LEN   0
 #define WL_MAX        10000000
 #define CASE_PERMUTE  0
